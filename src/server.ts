@@ -24,7 +24,7 @@ dotenv.config();
 function runApp() {
 	// Start listening for connections, and serve static files.
 	const server = new MRE.WebHost({
-		baseUrl: "https://octopus.tgb.gg",
+		baseUrl: "https://octopus.mre.ninja",
 		port: 3001,
 		baseDir: resolvePath(__dirname, "../public"),
 	});
